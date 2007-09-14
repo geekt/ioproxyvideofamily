@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BA5A01630B30DC83000D19F9 /* Build All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BA5A01720B30DCAE000D19F9 /* Build configuration list for PBXAggregateTarget "Build All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				BA5A01650B30DC8B000D19F9 /* PBXTargetDependency */,
+				BA5A01670B30DC8E000D19F9 /* PBXTargetDependency */,
+				BA5A083F0B30E068000D19F9 /* PBXTargetDependency */,
+			);
+			name = "Build All";
+			productName = "Build All";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		BA193BE00B30B52A005DA951 /* Framebuffer-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA193BDF0B30B52A005DA951 /* Framebuffer-Info.plist */; };
+		BA193BE30B30B550005DA951 /* IOProxyFramebuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = BA193BE10B30B550005DA951 /* IOProxyFramebuffer.h */; };
+		BA193BE40B30B550005DA951 /* IOProxyFramebuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA193BE20B30B550005DA951 /* IOProxyFramebuffer.cpp */; };
+		BA5A01B40B30DF0D000D19F9 /* UserClientCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5A01B30B30DF0C000D19F9 /* UserClientCommon.h */; };
+		BA5A04A10B30DFC1000D19F9 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5A049B0B30DFC1000D19F9 /* IOKit.framework */; };
+		BA5A04A20B30DFC1000D19F9 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5A049C0B30DFC1000D19F9 /* ApplicationServices.framework */; };
+		BA5A04A30B30DFC1000D19F9 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5A049D0B30DFC1000D19F9 /* AppKit.framework */; };
+		BA5A04A40B30DFC1000D19F9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5A049E0B30DFC1000D19F9 /* CoreData.framework */; };
+		BA5A04A50B30DFC1000D19F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5A049F0B30DFC1000D19F9 /* Foundation.framework */; };
+		BA5A04A60B30DFC1000D19F9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5A04A00B30DFC1000D19F9 /* Cocoa.framework */; };
+		BA5A085A0B30E0B0000D19F9 /* VideoCard-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA5A08570B30E0B0000D19F9 /* VideoCard-Info.plist */; };
+		BA5A085B0B30E0B0000D19F9 /* IOProxyVideoCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA5A08580B30E0B0000D19F9 /* IOProxyVideoCard.cpp */; };
+		BA5A085C0B30E0B0000D19F9 /* IOProxyVideoCard.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5A08590B30E0B0000D19F9 /* IOProxyVideoCard.h */; };
+		BA5A08690B30E18C000D19F9 /* IOProxyVideoCardUserClient.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5A08670B30E18C000D19F9 /* IOProxyVideoCardUserClient.h */; };
+		BA5A086A0B30E18C000D19F9 /* IOProxyVideoCardUserClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA5A08680B30E18C000D19F9 /* IOProxyVideoCardUserClient.cpp */; };
+		BAA6579D0C9A6DF60023D201 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA6579B0C9A6DF60023D201 /* main.m */; };
+		BAA6579E0C9A6DF60023D201 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA6579C0C9A6DF60023D201 /* AppController.m */; };
+		BAA657A70C9A6E1E0023D201 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAA657A00C9A6E1E0023D201 /* InfoPlist.strings */; };
+		BAA657A80C9A6E1E0023D201 /* jim.icns in Resources */ = {isa = PBXBuildFile; fileRef = BAA657A20C9A6E1E0023D201 /* jim.icns */; };
+		BAA657A90C9A6E1E0023D201 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = BAA657A40C9A6E1E0023D201 /* MainMenu.nib */; };
+		BAA657AA0C9A6E1E0023D201 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAA657A60C9A6E1E0023D201 /* Info.plist */; };
+		BABD85900B349DF9005C0285 /* EDID.h in Headers */ = {isa = PBXBuildFile; fileRef = BABD858F0B349DF9005C0285 /* EDID.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA5A01640B30DC8B000D19F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32D94FC30562CBF700B6AF17;
+			remoteInfo = IODummyVideoCard;
+		};
+		BA5A01660B30DC8E000D19F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA193BC40B30B374005DA951;
+			remoteInfo = IODummyFramebuffer;
+		};
+		BA5A083E0B30E068000D19F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA5A01800B30DDF7000D19F9;
+			remoteInfo = DummyControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32D94FD00562CBF700B6AF17 /* IOProxyVideoCard.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOProxyVideoCard.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA8362C06AD9B9200E5AC22 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = /System/Library/Frameworks/Kernel.framework; sourceTree = "<absolute>"; };
+		BA193BD00B30B374005DA951 /* IOProxyFramebuffer.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOProxyFramebuffer.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA193BDF0B30B52A005DA951 /* Framebuffer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Framebuffer-Info.plist"; sourceTree = "<group>"; };
+		BA193BE10B30B550005DA951 /* IOProxyFramebuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOProxyFramebuffer.h; sourceTree = "<group>"; };
+		BA193BE20B30B550005DA951 /* IOProxyFramebuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IOProxyFramebuffer.cpp; sourceTree = "<group>"; };
+		BA5A01810B30DDF7000D19F9 /* ProxyControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProxyControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5A01B30B30DF0C000D19F9 /* UserClientCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserClientCommon.h; sourceTree = "<group>"; };
+		BA5A049B0B30DFC1000D19F9 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		BA5A049C0B30DFC1000D19F9 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		BA5A049D0B30DFC1000D19F9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		BA5A049E0B30DFC1000D19F9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		BA5A049F0B30DFC1000D19F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		BA5A04A00B30DFC1000D19F9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		BA5A08570B30E0B0000D19F9 /* VideoCard-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "VideoCard-Info.plist"; sourceTree = "<group>"; };
+		BA5A08580B30E0B0000D19F9 /* IOProxyVideoCard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IOProxyVideoCard.cpp; sourceTree = "<group>"; };
+		BA5A08590B30E0B0000D19F9 /* IOProxyVideoCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOProxyVideoCard.h; sourceTree = "<group>"; };
+		BA5A08670B30E18C000D19F9 /* IOProxyVideoCardUserClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOProxyVideoCardUserClient.h; sourceTree = "<group>"; };
+		BA5A08680B30E18C000D19F9 /* IOProxyVideoCardUserClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IOProxyVideoCardUserClient.cpp; sourceTree = "<group>"; };
+		BAA6579B0C9A6DF60023D201 /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAA6579C0C9A6DF60023D201 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		BAA657A10C9A6E1E0023D201 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BAA657A30C9A6E1E0023D201 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = English; path = English.lproj/jim.icns; sourceTree = "<group>"; };
+		BAA657A50C9A6E1E0023D201 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		BAA657A60C9A6E1E0023D201 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA657AB0C9A6E280023D201 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		BABD858F0B349DF9005C0285 /* EDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDID.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32D94FCB0562CBF700B6AF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA193BCB0B30B374005DA951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5A017F0B30DDF7000D19F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5A04A10B30DFC1000D19F9 /* IOKit.framework in Frameworks */,
+				BA5A04A20B30DFC1000D19F9 /* ApplicationServices.framework in Frameworks */,
+				BA5A04A30B30DFC1000D19F9 /* AppKit.framework in Frameworks */,
+				BA5A04A40B30DFC1000D19F9 /* CoreData.framework in Frameworks */,
+				BA5A04A50B30DFC1000D19F9 /* Foundation.framework in Frameworks */,
+				BA5A04A60B30DFC1000D19F9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* IODummyVideoCard */ = {
+			isa = PBXGroup;
+			children = (
+				BA5A01B30B30DF0C000D19F9 /* UserClientCommon.h */,
+				BAA657990C9A6DD90023D201 /* ProxyControl Source */,
+				BA193BDE0B30B52A005DA951 /* IODummyFramebuffer Source */,
+				BA5A08560B30E0B0000D19F9 /* IODummyVideoCard Source */,
+				BA5A01F60B30DFAC000D19F9 /* Frameworks */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+			);
+			name = IODummyVideoCard;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32D94FD00562CBF700B6AF17 /* IOProxyVideoCard.kext */,
+				BA193BD00B30B374005DA951 /* IOProxyFramebuffer.kext */,
+				BA5A01810B30DDF7000D19F9 /* ProxyControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA193BDE0B30B52A005DA951 /* IODummyFramebuffer Source */ = {
+			isa = PBXGroup;
+			children = (
+				BA193BDF0B30B52A005DA951 /* Framebuffer-Info.plist */,
+				BABD858F0B349DF9005C0285 /* EDID.h */,
+				BA193BE10B30B550005DA951 /* IOProxyFramebuffer.h */,
+				BA193BE20B30B550005DA951 /* IOProxyFramebuffer.cpp */,
+			);
+			path = "IODummyFramebuffer Source";
+			sourceTree = "<group>";
+		};
+		BA5A01F60B30DFAC000D19F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DA8362C06AD9B9200E5AC22 /* Kernel.framework */,
+				BA5A049B0B30DFC1000D19F9 /* IOKit.framework */,
+				BA5A049C0B30DFC1000D19F9 /* ApplicationServices.framework */,
+				BA5A049D0B30DFC1000D19F9 /* AppKit.framework */,
+				BA5A049E0B30DFC1000D19F9 /* CoreData.framework */,
+				BA5A049F0B30DFC1000D19F9 /* Foundation.framework */,
+				BA5A04A00B30DFC1000D19F9 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA5A08560B30E0B0000D19F9 /* IODummyVideoCard Source */ = {
+			isa = PBXGroup;
+			children = (
+				BA5A08570B30E0B0000D19F9 /* VideoCard-Info.plist */,
+				BA5A08590B30E0B0000D19F9 /* IOProxyVideoCard.h */,
+				BA5A08580B30E0B0000D19F9 /* IOProxyVideoCard.cpp */,
+				BA5A08670B30E18C000D19F9 /* IOProxyVideoCardUserClient.h */,
+				BA5A08680B30E18C000D19F9 /* IOProxyVideoCardUserClient.cpp */,
+			);
+			path = "IODummyVideoCard Source";
+			sourceTree = "<group>";
+		};
+		BAA657990C9A6DD90023D201 /* ProxyControl Source */ = {
+			isa = PBXGroup;
+			children = (
+				BAA6579B0C9A6DF60023D201 /* main.m */,
+				BAA6579C0C9A6DF60023D201 /* AppController.m */,
+				BAA657AB0C9A6E280023D201 /* AppController.h */,
+				BAA6579F0C9A6E1E0023D201 /* Resources */,
+			);
+			name = "ProxyControl Source";
+			sourceTree = "<group>";
+		};
+		BAA6579F0C9A6E1E0023D201 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BAA657A00C9A6E1E0023D201 /* InfoPlist.strings */,
+				BAA657A20C9A6E1E0023D201 /* jim.icns */,
+				BAA657A40C9A6E1E0023D201 /* MainMenu.nib */,
+				BAA657A60C9A6E1E0023D201 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32D94FC50562CBF700B6AF17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5A01B40B30DF0D000D19F9 /* UserClientCommon.h in Headers */,
+				BA5A085C0B30E0B0000D19F9 /* IOProxyVideoCard.h in Headers */,
+				BA5A08690B30E18C000D19F9 /* IOProxyVideoCardUserClient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA193BC50B30B374005DA951 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA193BE30B30B550005DA951 /* IOProxyFramebuffer.h in Headers */,
+				BABD85900B349DF9005C0285 /* EDID.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32D94FC30562CBF700B6AF17 /* IOProxyVideoCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91D908733DB10010E9CD /* Build configuration list for PBXNativeTarget "IOProxyVideoCard" */;
+			buildPhases = (
+				32D94FC50562CBF700B6AF17 /* Headers */,
+				32D94FC70562CBF700B6AF17 /* Resources */,
+				32D94FC90562CBF700B6AF17 /* Sources */,
+				32D94FCB0562CBF700B6AF17 /* Frameworks */,
+				32D94FCC0562CBF700B6AF17 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOProxyVideoCard;
+			productInstallPath = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+			productName = IODummyVideoCard;
+			productReference = 32D94FD00562CBF700B6AF17 /* IOProxyVideoCard.kext */;
+			productType = "com.apple.product-type.kernel-extension.iokit";
+		};
+		BA193BC40B30B374005DA951 /* IOProxyFramebuffer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA193BCD0B30B374005DA951 /* Build configuration list for PBXNativeTarget "IOProxyFramebuffer" */;
+			buildPhases = (
+				BA193BC50B30B374005DA951 /* Headers */,
+				BA193BC70B30B374005DA951 /* Resources */,
+				BA193BC90B30B374005DA951 /* Sources */,
+				BA193BCB0B30B374005DA951 /* Frameworks */,
+				BA193BCC0B30B374005DA951 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOProxyFramebuffer;
+			productInstallPath = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+			productName = IODummyVideoCard;
+			productReference = BA193BD00B30B374005DA951 /* IOProxyFramebuffer.kext */;
+			productType = "com.apple.product-type.kernel-extension.iokit";
+		};
+		BA5A01800B30DDF7000D19F9 /* ProxyControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5A01840B30DDF8000D19F9 /* Build configuration list for PBXNativeTarget "ProxyControl" */;
+			buildPhases = (
+				BA5A017D0B30DDF7000D19F9 /* Resources */,
+				BA5A017E0B30DDF7000D19F9 /* Sources */,
+				BA5A017F0B30DDF7000D19F9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProxyControl;
+			productName = DummyControl;
+			productReference = BA5A01810B30DDF7000D19F9 /* ProxyControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91DD08733DB10010E9CD /* Build configuration list for PBXProject "IOProxyVideoFamily" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* IODummyVideoCard */;
+			projectDirPath = "";
+			targets = (
+				32D94FC30562CBF700B6AF17 /* IOProxyVideoCard */,
+				BA193BC40B30B374005DA951 /* IOProxyFramebuffer */,
+				BA5A01630B30DC83000D19F9 /* Build All */,
+				BA5A01800B30DDF7000D19F9 /* ProxyControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32D94FC70562CBF700B6AF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5A085A0B30E0B0000D19F9 /* VideoCard-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA193BC70B30B374005DA951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA193BE00B30B52A005DA951 /* Framebuffer-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5A017D0B30DDF7000D19F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA657A70C9A6E1E0023D201 /* InfoPlist.strings in Resources */,
+				BAA657A80C9A6E1E0023D201 /* jim.icns in Resources */,
+				BAA657A90C9A6E1E0023D201 /* MainMenu.nib in Resources */,
+				BAA657AA0C9A6E1E0023D201 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		32D94FCC0562CBF700B6AF17 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA193BCC0B30B374005DA951 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32D94FC90562CBF700B6AF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5A085B0B30E0B0000D19F9 /* IOProxyVideoCard.cpp in Sources */,
+				BA5A086A0B30E18C000D19F9 /* IOProxyVideoCardUserClient.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA193BC90B30B374005DA951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA193BE40B30B550005DA951 /* IOProxyFramebuffer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5A017E0B30DDF7000D19F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA6579D0C9A6DF60023D201 /* main.m in Sources */,
+				BAA6579E0C9A6DF60023D201 /* AppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA5A01650B30DC8B000D19F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32D94FC30562CBF700B6AF17 /* IOProxyVideoCard */;
+			targetProxy = BA5A01640B30DC8B000D19F9 /* PBXContainerItemProxy */;
+		};
+		BA5A01670B30DC8E000D19F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA193BC40B30B374005DA951 /* IOProxyFramebuffer */;
+			targetProxy = BA5A01660B30DC8E000D19F9 /* PBXContainerItemProxy */;
+		};
+		BA5A083F0B30E068000D19F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA5A01800B30DDF7000D19F9 /* ProxyControl */;
+			targetProxy = BA5A083E0B30E068000D19F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAA657A00C9A6E1E0023D201 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAA657A10C9A6E1E0023D201 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BAA657A20C9A6E1E0023D201 /* jim.icns */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAA657A30C9A6E1E0023D201 /* English */,
+			);
+			name = jim.icns;
+			sourceTree = "<group>";
+		};
+		BAA657A40C9A6E1E0023D201 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAA657A50C9A6E1E0023D201 /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91DA08733DB10010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "IODummyVideoCard Source/VideoCard-Info.plist";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.doequalsglory.driver.IOProxyVideoCard;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = IOProxyVideoCard;
+				WRAPPER_EXTENSION = kext;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB91DB08733DB10010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = "IODummyVideoCard Source/VideoCard-Info.plist";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.doequalsglory.driver.IOProxyVideoCard;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = IOProxyVideoCard;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+		1DEB91DE08733DB10010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/PrivateSystemHeaders";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DEB91DF08733DB10010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/PrivateSystemHeaders";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+		BA193BCE0B30B374005DA951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "IODummyFramebuffer Source/Framebuffer-Info.plist";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.doequalsglory.driver.IOProxyFramebuffer;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = IOProxyFramebuffer;
+				WRAPPER_EXTENSION = kext;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		BA193BCF0B30B374005DA951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = "IODummyFramebuffer Source/Framebuffer-Info.plist";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.doequalsglory.driver.IOProxyFramebuffer;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = IOProxyFramebuffer;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+		BA5A01730B30DCAE000D19F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build All";
+			};
+			name = Debug;
+		};
+		BA5A01740B30DCAE000D19F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = "Build All";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		BA5A01850B30DDF8000D19F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = ProxyControl;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		BA5A01860B30DDF8000D19F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = ProxyControl;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91D908733DB10010E9CD /* Build configuration list for PBXNativeTarget "IOProxyVideoCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91DA08733DB10010E9CD /* Debug */,
+				1DEB91DB08733DB10010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91DD08733DB10010E9CD /* Build configuration list for PBXProject "IOProxyVideoFamily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91DE08733DB10010E9CD /* Debug */,
+				1DEB91DF08733DB10010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA193BCD0B30B374005DA951 /* Build configuration list for PBXNativeTarget "IOProxyFramebuffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA193BCE0B30B374005DA951 /* Debug */,
+				BA193BCF0B30B374005DA951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5A01720B30DCAE000D19F9 /* Build configuration list for PBXAggregateTarget "Build All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5A01730B30DCAE000D19F9 /* Debug */,
+				BA5A01740B30DCAE000D19F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5A01840B30DDF8000D19F9 /* Build configuration list for PBXNativeTarget "ProxyControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5A01850B30DDF8000D19F9 /* Debug */,
+				BA5A01860B30DDF8000D19F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
